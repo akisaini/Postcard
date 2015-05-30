@@ -90,6 +90,15 @@
                                     <rect key="frame" x="49" y="79" width="309" height="46"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJR-0o-lW4">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="49" y="170" width="181" height="45"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWv-f1-fXX">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.52931563858227637" blue="0.19430227403315248" alpha="1" colorSpace="calibratedRGB"/>
@@ -110,6 +119,7 @@
                                 <exclude reference="MJC-0z-269"/>
                                 <exclude reference="1lu-PW-fKU"/>
                                 <exclude reference="53x-HP-UXC"/>
+                                <exclude reference="jJR-0o-lW4"/>
                                 <exclude reference="BWv-f1-fXX"/>
                             </mask>
                         </variation>
@@ -119,6 +129,7 @@
                                 <include reference="MJC-0z-269"/>
                                 <include reference="1lu-PW-fKU"/>
                                 <include reference="53x-HP-UXC"/>
+                                <include reference="jJR-0o-lW4"/>
                                 <include reference="BWv-f1-fXX"/>
                             </mask>
                         </variation>
@@ -128,6 +139,7 @@
                         <outlet property="enterNameTextField" destination="MJC-0z-269" id="knJ-ef-U4L"/>
                         <outlet property="mailButton" destination="BWv-f1-fXX" id="eXe-Df-Cpt"/>
                         <outlet property="messageLabel" destination="53x-HP-UXC" id="8im-G6-WFa"/>
+                        <outlet property="nameLabel" destination="jJR-0o-lW4" id="hqY-c3-KyX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
